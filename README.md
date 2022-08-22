@@ -17,17 +17,17 @@ src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo
 ## Residual Network 
 - Architecture: CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> CONVBLOCK -> IDBLOCK*2 -> CONVBLOCK -> IDBLOCK*3 -> CONVBLOCK -> IDBLOCK*5 -> CONVBLOCK -> IDBLOCK*2 -> AVGPOOL -> FLATTEN -> DENSE 
 
-##### IDBLOCK (Identity Block)
+#### IDBLOCK (Identity Block)
 - Main path: Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization
 - Input is added with the output to pass through a ReLU activation
 - Add()([X, X_shortcut]) -> ReLU
 
-##### CONVBLOCK (Convolutional Block)
+#### CONVBLOCK (Convolutional Block)
 - Main path: Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization
 - Shortcut path: Conv2d -> BatchNormalization
 - Add()([X, X_shortcut]) -> ReLU
 
-##### Evaluate
+#### Evaluate
 - Train_acc: 0.9583, Val_acc: 0.8667
 
 ## Pre-Trained Model on The SIGNS datasets
