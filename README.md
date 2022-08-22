@@ -14,7 +14,7 @@ src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo
 - Architecture: Conv2d -> ReLU -> MaxPooling2D -> Conv2d -> ReLU -> MaxPooling2D -> Flatten -> Dense
 - Train_acc: 0.8861, Val_acc: 0.8083
 
-## Residual Network 
+## ResNet50 Model
 - Architecture: CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> CONVBLOCK -> IDBLOCK*2 -> CONVBLOCK -> IDBLOCK*3 -> CONVBLOCK -> IDBLOCK*5 -> CONVBLOCK -> IDBLOCK*2 -> AVGPOOL -> FLATTEN -> DENSE 
 
 #### IDBLOCK (Identity Block)
