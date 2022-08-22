@@ -30,7 +30,7 @@ src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo
 ##### Evaluate
 - Train_acc: 0.9583, Val_acc: 0.8667
 
-## pre-trained model on the SIGNS datasets
+## Pre-Trained Model on The SIGNS datasets
 - Train_acc: 0.9500, Val_acc: 0.9500
 
 
