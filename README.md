@@ -15,7 +15,7 @@ src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo
 - Train_acc: 0.8861, Val_acc: 0.8083
 
 ## ResNet50 Model
-- Architecture: CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> CONVBLOCK -> IDBLOCK*2 -> CONVBLOCK -> IDBLOCK*3 -> CONVBLOCK -> IDBLOCK*5 -> CONVBLOCK -> IDBLOCK*2 -> AVGPOOL -> FLATTEN -> DENSE 
+- Architecture: CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> CONVBLOCK -> IDBLOCK * 2 -> CONVBLOCK -> IDBLOCK * 3 -> CONVBLOCK -> IDBLOCK * 5 -> CONVBLOCK -> IDBLOCK * 2 -> AVGPOOL -> FLATTEN -> DENSE 
 
 #### IDBLOCK (Identity Block)
 - Main path: Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization -> ReLU -> Conv2d -> BatchNormalization
