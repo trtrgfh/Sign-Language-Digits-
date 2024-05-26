@@ -11,16 +11,13 @@ src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo
 The goal of this project is to develop an accurate and efficient system for recognizing hand-sign digits in sign language using Convolutional Neural Networks (CNN) and Residual Networks (ResNet).
 
 # Installation and Setup
-## Codes and Resources Used
-- **Python Version:** Python>=3.8
-  
 ## Python Packages Used
 - **Data Manipulation:** numpy, scipy, h5py
 - **Data Visualization:** matplotlib, PIL
 - **Machine Learning:** tensorflow, tensorflow.keras
 
-## Dataset
-- Images of sign language digits
+# Data
+Datasets used can be found in the datasets foleder which contains:
 - 1080 training examples of 64 pixel by 64 pixel RGB image 
 - 120 validation examples of 64 pixel by 64 pixel RGB image 
 
