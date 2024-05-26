@@ -43,6 +43,7 @@ Datasets used can be found in the datasets foleder which contains:
 ## Pre-Trained ResNet50 on The SIGNS datasets
 - Train_acc: 0.9500, Val_acc: 0.9500
 
+<img width="286" alt="Screenshot 2024-05-26 at 5 42 49 PM" src="https://github.com/trtrgfh/Sign-Language-Digits-Recognition/assets/73056232/d03889bc-a030-4b0a-b31d-6799de5e11d2">
 
 
 
