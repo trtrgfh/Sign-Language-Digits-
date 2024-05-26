@@ -12,9 +12,9 @@ The goal of this project is to develop an accurate and efficient system for reco
 
 # Installation and Setup
 ## Python Packages Used
-- **Data Manipulation:** numpy, h5py
+- **Data Manipulation:** numpy, scipy, h5py
 - **Data Visualization:** matplotlib, PIL
-- **Machine Learning:** tensorflow
+- **Machine Learning:** tensorflow, tensorflow.keras
 
 ## Dataset
 - Images of sign language digits
