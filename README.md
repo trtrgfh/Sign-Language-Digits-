@@ -8,7 +8,13 @@ src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&l
 src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white" /> 
 
 # Project Overview
-In this section you should provide a brief overview of the project, what it is about, and what it aims to achieve. This will help readers quickly understand what the project is all about.
+The goal of this project is to develop an accurate and efficient system for recognizing hand-sign digits in sign language using Convolutional Neural Networks (CNN) and Residual Networks (ResNet).
+
+# Installation and Setup
+## Python Packages Used
+- **Data Manipulation:** numpy, h5py
+- **Data Visualization:** matplotlib, PIL
+- **Machine Learning:** tensorflow
 
 ## Dataset
 - Images of sign language digits
