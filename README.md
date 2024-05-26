@@ -40,7 +40,7 @@ Datasets used can be found in the datasets foleder which contains:
 - Shortcut path: Conv2d -> BatchNormalization
 - Add()([X, X_shortcut]) -> ReLU
 
-## Pre-Trained Model on The SIGNS datasets
+## Pre-Trained ResNet50 on The SIGNS datasets
 - Train_acc: 0.9500, Val_acc: 0.9500
 
 
