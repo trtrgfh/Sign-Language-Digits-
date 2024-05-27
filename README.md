@@ -9,7 +9,7 @@ The goal of this project is to develop an accurate and efficient system for reco
 ## Python Packages Used
 - **Data Manipulation:** numpy, scipy, h5py
 - **Data Visualization:** matplotlib, PIL
-- **Machine Learning:** tensorflow, tensorflow.keras
+- **Machine Learning:** tensorflow
 
 # Data
 Datasets used can be found in the datasets foleder which contains:
